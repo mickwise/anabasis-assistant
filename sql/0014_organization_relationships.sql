@@ -60,9 +60,9 @@
 
 CREATE TABLE IF NOT EXISTS organization_relationships (
 
-    -- =========
-    -- Endpoints
-    -- =========
+    -- ===========
+    -- Identifiers
+    -- ===========
 
     -- Source organization in this directed relation.
     left_organization_id UUID NOT NULL REFERENCES organizations (

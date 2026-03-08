@@ -55,9 +55,9 @@
 
 CREATE TABLE IF NOT EXISTS location_relationships (
 
-    -- =========
-    -- Endpoints
-    -- =========
+    -- ===========
+    -- Identifiers
+    -- ===========
 
     -- Source location in this directed relation.
     left_location_id UUID NOT NULL REFERENCES locations (location_id),
